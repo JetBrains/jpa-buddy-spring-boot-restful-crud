@@ -6,7 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name = "project")
+@Table(name = "project", indexes = {
+        @Index(name = "idx_project_name", columnList = "name")
+})
 public class Project {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
