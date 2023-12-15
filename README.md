@@ -1,3 +1,5 @@
+[![JetBrains team project](https://jb.gg/badges/team.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+
 # Spring Boot RESTful CRUD Application
 
 You can see the complete guide on how we created the whole project in this repository in the [following video](https://youtu.be/DC6FrC4olhE):
